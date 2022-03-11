@@ -1,4 +1,11 @@
-import { Container, UserForm, FormInput, FormSubmit, FormTitle } from './index'
+import {
+	Container,
+	UserForm,
+	FormInput,
+	FormSubmit,
+	FormTitle,
+	FormLink,
+} from './index'
 import { FormEvent, useState } from 'react'
 
 export const LoginForm = () => {
@@ -46,6 +53,8 @@ export const LoginForm = () => {
 					}}
 				/>
 				<FormSubmit type='submit' value='Login' />
+				<FormLink>Don't have an account? Register now</FormLink>
+				<FormLink>Forgot your password?</FormLink>
 			</UserForm>
 		</Container>
 	)

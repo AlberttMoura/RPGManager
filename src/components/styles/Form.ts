@@ -40,3 +40,10 @@ export const FormSubmit = styled.input`
 		background-color: #1573ca;
 	}
 `
+
+export const FormLink = styled.p`
+	font-weight: 500;
+	font-size: 14px;
+	color: #7785ff;
+	margin: 10px 0px;
+`

@@ -1,11 +1,11 @@
-import { Container } from './components/styles/Container.styled'
-import { Logo, LoginForm } from './components/index'
+import { Logo, LoginForm, Footer, Container } from './components/index'
 
 export const App = () => {
 	return (
 		<Container>
 			<Logo />
 			<LoginForm />
+			<Footer />
 		</Container>
 	)
 }
