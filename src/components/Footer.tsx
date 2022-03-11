@@ -14,7 +14,8 @@ export const Footer = () => {
 			style={{
 				backgroundColor: '#343434',
 				width: '100%',
-				margin: '20px 0px 0px 0px',
+				position: 'absolute',
+				bottom: 0,
 			}}>
 			<Container
 				style={{
