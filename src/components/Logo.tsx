@@ -4,7 +4,7 @@ import {
 	LogoTitle,
 	LogoSlogan,
 } from '../components/styles/Logo.styled'
-import WarfogLogo from './styles/WarfogLogo.png'
+import WarfogLogo from '../assets/WarfogLogo.png'
 
 export const Logo = () => {
 	return (
